@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sport Activity" max_length="40" name="x_65926_sports_log_sport_activity" type="collection">
+        <element choice="1" label="Activity" max_length="40" name="u_activity" type="choice">
+            <choice/>
+        </element>
+        <element label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element label="Distance" max_length="20" name="u_distance" type="decimal"/>
+        <element choice="1" label="Exercise" max_length="40" name="u_exercise" type="choice">
+            <choice/>
+        </element>
+        <element label="Time" max_length="40" name="u_time" type="glide_time"/>
+    </element>
+</database>
